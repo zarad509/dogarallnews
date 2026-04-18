@@ -217,12 +217,6 @@ body[dir="rtl"] .section h2 {
   line-height: 1.5;
 }
 
-.section-intro {
-  margin: 0 0 1.75rem;
-  color: var(--muted);
-  max-width: 42rem;
-}
-
 .about-grid {
   display: grid;
   gap: 1rem;
@@ -355,6 +349,50 @@ body[dir="rtl"] .panel-title {
 .panel-text {
   margin: 0 0 1.25rem;
   color: var(--muted);
+}
+
+.panel-stack .panel-text:last-of-type {
+  margin-bottom: 0.75rem;
+}
+
+.panel-stack {
+  margin-bottom: 1.25rem;
+}
+
+.marriage-phones {
+  margin: 0 0 1rem;
+  font-weight: 600;
+}
+
+.marriage-phones a {
+  color: var(--accent);
+  text-decoration: none;
+}
+
+.marriage-phones a:hover {
+  text-decoration: underline;
+}
+
+.phone-sep {
+  margin: 0 0.5rem;
+  color: var(--muted);
+  font-weight: 400;
+}
+
+.marriage-email {
+  margin: 0 0 1.25rem;
+}
+
+.marriage-email a {
+  color: var(--accent);
+  font-weight: 600;
+  word-break: break-all;
+}
+
+.marriage-chairman {
+  margin-bottom: 0.35rem;
+  color: var(--ink);
+  font-weight: 600;
 }
 
 .panel-link {

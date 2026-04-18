@@ -14,9 +14,8 @@ const STRINGS = {
       "We coordinate programmes that remove barriers to sight, learning, and stable family life. Our affiliated initiatives operate with local volunteers and trusted partners so help reaches people quickly and fairly.",
     aboutJoinTitle: "Get involved",
     aboutJoinBody:
-      "Whether you donate time, resources, or spread the word, you strengthen work that changes lives. Explore our linked programmes below to learn more and visit each initiative’s dedicated site.",
-    affiliatesHeading: "Affiliated programmes",
-    affiliatesIntro: "Select a programme to read a short summary and open its website in a new tab.",
+      "Whether you donate time, resources, or spread the word, you strengthen work that changes lives. Explore our programmes below to learn more.",
+    affiliatesHeading: "Programmes",
     tabEyes: "Free Eyes Camp",
     tabMarriage: "Free Marriage Bureau",
     tabEducation: "Free Education — Zainab Essa College Hospital",
@@ -24,8 +23,10 @@ const STRINGS = {
     eyesBody:
       "Eye screening camps offer consultations and referrals so treatable conditions are caught early. This programme helps people who cannot easily access private eye care to receive guidance and support in a dignified setting.",
     marriageTitle: "Free Marriage Bureau",
-    marriageBody:
-      "The bureau assists families with responsible matchmaking support, respecting privacy and Islamic values where applicable. It aims to reduce financial strain and help sincere seekers connect through a supervised, ethical process.",
+    marriagePara1: "A free international Muslim marriage service.",
+    marriagePara2: "Free service, no dowry—for Muslims only.",
+    marriageLocations: "Locations: Islamabad, Faisalabad, and Britain.",
+    marriageChairman: "Chairman: Javed Iqbal Dogar",
     educationTitle: "Free Education — Zainab Essa College Hospital",
     educationBody:
       "This initiative supports access to education linked with Zainab Essa College Hospital, helping students pursue learning alongside healthcare awareness. It reflects our belief that education and health reinforce one another in strong communities.",
@@ -47,9 +48,8 @@ const STRINGS = {
       "ہم ایسے پروگراموں کو مربوط کرتے ہیں جو بینائی، تعلیم اور مستحکم خاندانی زندگی کے رکاوٹیں کم کرتے ہیں۔ ہمارے الحاقی اقدامات مقامی رضاکاروں اور معتبر شراکت داروں کے ساتھ چلتے ہیں تاکہ مدد جلد اور منصفانہ پہنچے۔",
     aboutJoinTitle: "شمولیت",
     aboutJoinBody:
-      "آپ وقت، وسائل عطیہ کریں یا آگاہی پھیلائیں—آپ اس کام کو مضبوط کرتے ہیں جو زندگیاں بدلتا ہے۔ ذیل میں منسلک پروگرام دیکھیں، مختصر معلومات پڑھیں اور ہر اقدام کی ویب سائٹ کھولیں۔",
-    affiliatesHeading: "الحاقی پروگرام",
-    affiliatesIntro: "کسی پروگرام کو منتخب کریں، مختصر خلاصہ پڑھیں اور نئی ٹیب میں ویب سائٹ کھولیں۔",
+      "آپ وقت، وسائل عطیہ کریں یا آگاہی پھیلائیں—آپ اس کام کو مضبوط کرتے ہیں جو زندگیاں بدلتا ہے۔ ذیل میں ہمارے پروگرام دیکھ کر مزید جانیں۔",
+    affiliatesHeading: "پروگرام",
     tabEyes: "مفت آنکھوں کا کیمپ",
     tabMarriage: "مفت شادی بیورو",
     tabEducation: "مفت تعلیم — زینب عیسیٰ کالج ہسپتال",
@@ -57,8 +57,10 @@ const STRINGS = {
     eyesBody:
       "آنکھوں کی اسکریننگ کیمپ مشورے اور حوالے فراہم کرتے ہیں تاکہ قابل علاج حالتیں جلد پکڑی جائیں۔ یہ پروگرام ان لوگوں کی مدد کرتا ہے جنہیں نجی آنکھوں کی دیکھ بھال تک آسان رسائی نہیں، تاکہ وہ وقار کے ساتھ رہنمائی حاصل کریں۔",
     marriageTitle: "مفت شادی بیورو",
-    marriageBody:
-      "بیورو خاندانوں کو ذمہ دارانہ رشتہ طلبی میں معاونت دیتا ہے، رازداری کا خیال رکھتا ہے اور جہاں مناسب ہو اسلامی اقدار کا احترام کرتا ہے۔ یہ مالی دباؤ کم کرنے اور سچے متلاشیوں کو نگرانی اور اخلاقی طریقے سے جوڑنے کی کوشش کرتا ہے۔",
+    marriagePara1: "مسلمانوں کے لیے ایک مفت بین الاقوامی شادی کی سروس۔",
+    marriagePara2: "مفت سروس، بغیر جہیز—صرف مسلمانوں کے لیے۔",
+    marriageLocations: "مقامات: اسلام آباد، فیصل آباد اور برطانیہ۔",
+    marriageChairman: "چیئرمین: جاوید اقبال ڈوگر",
     educationTitle: "مفت تعلیم — زینب عیسیٰ کالج ہسپتال",
     educationBody:
       "یہ اقدام زینب عیسیٰ کالج ہسپتال سے منسلک تعلیم تک رسائی کی حمایت کرتا ہے، طلباء کو تعلیم کے ساتھ صحت کی آگاہی میں مدد دیتا ہے۔ ہمارا یقین ہے کہ مضبوط معاشروں میں تعلیم اور صحت ایک دوسرے کو تقویت دیتی ہیں۔",
@@ -82,6 +84,11 @@ function applyLanguage(lang) {
     }
     el.textContent = text;
   });
+
+  const servicesTablist = document.querySelector('.tablist[role="tablist"]');
+  if (servicesTablist && dict.affiliatesHeading) {
+    servicesTablist.setAttribute("aria-label", dict.affiliatesHeading);
+  }
 
   document.querySelectorAll(".lang-btn").forEach((btn) => {
     const isActive = btn.getAttribute("data-lang") === lang;
