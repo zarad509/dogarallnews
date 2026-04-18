@@ -35,9 +35,15 @@
       <section class="hero">
         <div class="hero-inner">
           <h1 class="hero-title" data-i18n="heroTitle">Dogar Welfare Trust</h1>
+          <p class="hero-ngo" data-i18n="heroNgoLine">A non-profit organisation (NGO).</p>
           <p class="hero-lead" data-i18n="heroLead">
             A charitable organisation dedicated to health, education, and social support—building dignity and opportunity for those who need it most.
           </p>
+          <nav class="quick-nav" aria-label="Jump to programs">
+            <a href="#program-eyes" data-i18n="eyesTitle">Free Eyes Camp</a>
+            <a href="#program-marriage" data-i18n="marriageTitle">Free Marriage Bureau</a>
+            <a href="#program-education" data-i18n="educationTitle">Free Education</a>
+          </nav>
         </div>
       </section>
 
@@ -54,121 +60,245 @@
             <div class="about-card">
               <h3 data-i18n="aboutFocusTitle">What we focus on</h3>
               <p data-i18n="aboutFocusBody">
-                We coordinate programmes that remove barriers to sight, learning, and stable family life. Our affiliated initiatives operate with local volunteers and trusted partners so help reaches people quickly and fairly.
+                We coordinate programs that remove barriers to sight, learning, and stable family life. Our affiliated initiatives operate with local volunteers and trusted partners so help reaches people quickly and fairly.
               </p>
             </div>
             <div class="about-card">
               <h3 data-i18n="aboutJoinTitle">Get involved</h3>
               <p data-i18n="aboutJoinBody">
-                Whether you donate time, resources, or spread the word, you strengthen work that changes lives. Explore our programmes below to learn more.
+                Whether you donate time, resources, or spread the word, you strengthen work that changes lives. Explore our programs below to learn more.
               </p>
+            </div>
+          </div>
+
+          <div class="about-gallery">
+            <h3 class="about-gallery-heading" data-i18n="aboutGalleryHeading">Gallery</h3>
+            <div class="carousel" data-carousel>
+              <div class="carousel-viewport">
+                <div class="carousel-track">
+                  <figure class="carousel-slide">
+                    <div class="carousel-visual carousel-visual--about1" aria-hidden="true"></div>
+                    <figcaption data-i18n="aboutCap1">Community outreach and volunteer support.</figcaption>
+                  </figure>
+                  <figure class="carousel-slide">
+                    <div class="carousel-visual carousel-visual--about2" aria-hidden="true"></div>
+                    <figcaption data-i18n="aboutCap2">Medical and education programs in the field.</figcaption>
+                  </figure>
+                  <figure class="carousel-slide">
+                    <div class="carousel-visual carousel-visual--about3" aria-hidden="true"></div>
+                    <figcaption data-i18n="aboutCap3">Families supported through our trust network.</figcaption>
+                  </figure>
+                  <figure class="carousel-slide">
+                    <div class="carousel-visual carousel-visual--about4" aria-hidden="true"></div>
+                    <figcaption data-i18n="aboutCap4">Volunteers coordinating welfare services.</figcaption>
+                  </figure>
+                  <figure class="carousel-slide">
+                    <div class="carousel-visual carousel-visual--about5" aria-hidden="true"></div>
+                    <figcaption data-i18n="aboutCap5">Local communities receiving direct support.</figcaption>
+                  </figure>
+                  <figure class="carousel-slide">
+                    <div class="carousel-visual carousel-visual--about6" aria-hidden="true"></div>
+                    <figcaption data-i18n="aboutCap6">Planning and organising charitable outreach.</figcaption>
+                  </figure>
+                  <figure class="carousel-slide">
+                    <div class="carousel-visual carousel-visual--about7" aria-hidden="true"></div>
+                    <figcaption data-i18n="aboutCap7">Healthcare awareness through local initiatives.</figcaption>
+                  </figure>
+                  <figure class="carousel-slide">
+                    <div class="carousel-visual carousel-visual--about8" aria-hidden="true"></div>
+                    <figcaption data-i18n="aboutCap8">Education and welfare working together.</figcaption>
+                  </figure>
+                  <figure class="carousel-slide">
+                    <div class="carousel-visual carousel-visual--about9" aria-hidden="true"></div>
+                    <figcaption data-i18n="aboutCap9">On-ground service with dignity and care.</figcaption>
+                  </figure>
+                  <figure class="carousel-slide">
+                    <div class="carousel-visual carousel-visual--about10" aria-hidden="true"></div>
+                    <figcaption data-i18n="aboutCap10">Partnerships that strengthen community welfare.</figcaption>
+                  </figure>
+                </div>
+              </div>
+              <div class="carousel-controls">
+                <button type="button" class="carousel-btn carousel-prev" aria-label="Previous slide">‹</button>
+                <div class="carousel-dots" role="tablist" aria-label="Slides">
+                  <button type="button" class="carousel-dot is-active" role="tab" aria-selected="true" aria-label="Slide 1"></button>
+                  <button type="button" class="carousel-dot" role="tab" aria-selected="false" aria-label="Slide 2"></button>
+                  <button type="button" class="carousel-dot" role="tab" aria-selected="false" aria-label="Slide 3"></button>
+                  <button type="button" class="carousel-dot" role="tab" aria-selected="false" aria-label="Slide 4"></button>
+                  <button type="button" class="carousel-dot" role="tab" aria-selected="false" aria-label="Slide 5"></button>
+                  <button type="button" class="carousel-dot" role="tab" aria-selected="false" aria-label="Slide 6"></button>
+                  <button type="button" class="carousel-dot" role="tab" aria-selected="false" aria-label="Slide 7"></button>
+                  <button type="button" class="carousel-dot" role="tab" aria-selected="false" aria-label="Slide 8"></button>
+                  <button type="button" class="carousel-dot" role="tab" aria-selected="false" aria-label="Slide 9"></button>
+                  <button type="button" class="carousel-dot" role="tab" aria-selected="false" aria-label="Slide 10"></button>
+                </div>
+                <button type="button" class="carousel-btn carousel-next" aria-label="Next slide">›</button>
+              </div>
             </div>
           </div>
         </div>
       </section>
 
-      <section class="section affiliates" aria-labelledby="affiliates-heading">
+      <section class="section programs-section" aria-labelledby="programs-heading">
         <div class="section-inner">
-          <h2 id="affiliates-heading" data-i18n="affiliatesHeading">Programmes</h2>
+          <h2 id="programs-heading" data-i18n="affiliatesHeading">Programs</h2>
 
-          <div class="tabs" data-tabs>
-            <div class="tablist" role="tablist" aria-label="Programmes">
-              <button
-                type="button"
-                class="tab"
-                role="tab"
-                id="tab-eyes"
-                aria-selected="true"
-                aria-controls="panel-eyes"
-                tabindex="0"
-                data-i18n="tabEyes"
-              >
-                Free Eyes Camp
-              </button>
-              <button
-                type="button"
-                class="tab"
-                role="tab"
-                id="tab-marriage"
-                aria-selected="false"
-                aria-controls="panel-marriage"
-                tabindex="-1"
-                data-i18n="tabMarriage"
-              >
-                Free Marriage Bureau
-              </button>
-              <button
-                type="button"
-                class="tab"
-                role="tab"
-                id="tab-education"
-                aria-selected="false"
-                aria-controls="panel-education"
-                tabindex="-1"
-                data-i18n="tabEducation"
-              >
-                Free Education — Zainab Essa College Hospital
-              </button>
-            </div>
+          <article class="program-section" id="program-eyes">
+              <h3 class="program-title" data-i18n="eyesTitle">Free Eyes Camp</h3>
+              <div class="carousel" data-carousel>
+                <div class="carousel-viewport">
+                  <div class="carousel-track">
+                    <figure class="carousel-slide"><div class="carousel-visual carousel-visual--eyes1" aria-hidden="true"></div><figcaption data-i18n="eyesSlide1">Eye screening at a community camp.</figcaption></figure>
+                    <figure class="carousel-slide"><div class="carousel-visual carousel-visual--eyes2" aria-hidden="true"></div><figcaption data-i18n="eyesSlide2">Volunteers with outreach equipment.</figcaption></figure>
+                    <figure class="carousel-slide"><div class="carousel-visual carousel-visual--eyes3" aria-hidden="true"></div><figcaption data-i18n="eyesSlide3">Referrals and follow-up support.</figcaption></figure>
+                    <figure class="carousel-slide"><div class="carousel-visual carousel-visual--eyes4" aria-hidden="true"></div><figcaption data-i18n="eyesSlide4">Community registration before consultations.</figcaption></figure>
+                    <figure class="carousel-slide"><div class="carousel-visual carousel-visual--eyes5" aria-hidden="true"></div><figcaption data-i18n="eyesSlide5">Basic check-ups for early detection.</figcaption></figure>
+                    <figure class="carousel-slide"><div class="carousel-visual carousel-visual--eyes6" aria-hidden="true"></div><figcaption data-i18n="eyesSlide6">Vision support for underserved families.</figcaption></figure>
+                    <figure class="carousel-slide"><div class="carousel-visual carousel-visual--eyes7" aria-hidden="true"></div><figcaption data-i18n="eyesSlide7">Field coordination for camp management.</figcaption></figure>
+                    <figure class="carousel-slide"><div class="carousel-visual carousel-visual--eyes8" aria-hidden="true"></div><figcaption data-i18n="eyesSlide8">Guidance for treatment and referrals.</figcaption></figure>
+                    <figure class="carousel-slide"><div class="carousel-visual carousel-visual--eyes9" aria-hidden="true"></div><figcaption data-i18n="eyesSlide9">Health outreach with compassion and care.</figcaption></figure>
+                    <figure class="carousel-slide"><div class="carousel-visual carousel-visual--eyes10" aria-hidden="true"></div><figcaption data-i18n="eyesSlide10">Local support improving access to eye care.</figcaption></figure>
+                  </div>
+                </div>
+                <div class="carousel-controls">
+                  <button type="button" class="carousel-btn carousel-prev" aria-label="Previous slide">‹</button>
+                  <div class="carousel-dots" role="tablist" aria-label="Slides">
+                    <button type="button" class="carousel-dot is-active" role="tab" aria-selected="true" aria-label="Slide 1"></button>
+                    <button type="button" class="carousel-dot" role="tab" aria-selected="false" aria-label="Slide 2"></button>
+                    <button type="button" class="carousel-dot" role="tab" aria-selected="false" aria-label="Slide 3"></button>
+                    <button type="button" class="carousel-dot" role="tab" aria-selected="false" aria-label="Slide 4"></button>
+                    <button type="button" class="carousel-dot" role="tab" aria-selected="false" aria-label="Slide 5"></button>
+                    <button type="button" class="carousel-dot" role="tab" aria-selected="false" aria-label="Slide 6"></button>
+                    <button type="button" class="carousel-dot" role="tab" aria-selected="false" aria-label="Slide 7"></button>
+                    <button type="button" class="carousel-dot" role="tab" aria-selected="false" aria-label="Slide 8"></button>
+                    <button type="button" class="carousel-dot" role="tab" aria-selected="false" aria-label="Slide 9"></button>
+                    <button type="button" class="carousel-dot" role="tab" aria-selected="false" aria-label="Slide 10"></button>
+                  </div>
+                  <button type="button" class="carousel-btn carousel-next" aria-label="Next slide">›</button>
+                </div>
+              </div>
+              <div class="program-body">
+                <h4 class="program-subtitle" data-i18n="eyesMissionTitle">Mission</h4>
+                <p class="program-text" data-i18n="eyesMissionBody"></p>
+                <h4 class="program-subtitle" data-i18n="eyesContactTitle">Contact</h4>
+                <p class="program-text" data-i18n="eyesContactBody"></p>
+                <p class="program-text program-contact-line">
+                  <span data-i18n="contactEmailLabel">Email</span><span class="contact-colon">: </span><a href="mailto:javediqbaldogarwt@gmail.com">javediqbaldogarwt@gmail.com</a>
+                </p>
+                <div class="donate-card">
+                  <h4 class="program-subtitle" data-i18n="eyesDonateTitle">Donate</h4>
+                  <p class="program-text" data-i18n="eyesDonateBody"></p>
+                </div>
+                <a class="panel-link" href="programs/eyes-camp.html" data-i18n="learnMore">Learn more</a>
+              </div>
+          </article>
 
-            <div
-              class="tab-panel is-active"
-              role="tabpanel"
-              id="panel-eyes"
-              aria-labelledby="tab-eyes"
-            >
-              <h3 class="panel-title" data-i18n="eyesTitle">Free Eyes Camp</h3>
-              <p class="panel-text" data-i18n="eyesBody">
-                Eye screening camps offer consultations and referrals so treatable conditions are caught early. This programme helps people who cannot easily access private eye care to receive guidance and support in a dignified setting.
-              </p>
-              <a class="panel-link" href="https://example.com/free-eyes-camp" target="_blank" rel="noopener noreferrer" data-i18n="visitSite">
-                Visit website
-              </a>
-            </div>
-
-            <div
-              class="tab-panel"
-              role="tabpanel"
-              id="panel-marriage"
-              aria-labelledby="tab-marriage"
-              hidden
-            >
-              <h3 class="panel-title" data-i18n="marriageTitle">Free Marriage Bureau</h3>
-              <div class="panel-stack">
-                <p class="panel-text" data-i18n="marriagePara1"></p>
-                <p class="panel-text" data-i18n="marriagePara2"></p>
-                <p class="panel-text" data-i18n="marriageLocations"></p>
+          <article class="program-section" id="program-marriage">
+              <h3 class="program-title" data-i18n="marriageTitle">Free Marriage Bureau</h3>
+              <div class="carousel" data-carousel>
+                <div class="carousel-viewport">
+                  <div class="carousel-track">
+                    <figure class="carousel-slide"><div class="carousel-visual carousel-visual--marriage1" aria-hidden="true"></div><figcaption data-i18n="marriageSlide1">Families meeting with bureau coordinators.</figcaption></figure>
+                    <figure class="carousel-slide"><div class="carousel-visual carousel-visual--marriage2" aria-hidden="true"></div><figcaption data-i18n="marriageSlide2">Ethical matchmaking support.</figcaption></figure>
+                    <figure class="carousel-slide"><div class="carousel-visual carousel-visual--marriage3" aria-hidden="true"></div><figcaption data-i18n="marriageSlide3">International outreach — UK and Pakistan.</figcaption></figure>
+                    <figure class="carousel-slide"><div class="carousel-visual carousel-visual--marriage4" aria-hidden="true"></div><figcaption data-i18n="marriageSlide4">Private and respectful guidance for families.</figcaption></figure>
+                    <figure class="carousel-slide"><div class="carousel-visual carousel-visual--marriage5" aria-hidden="true"></div><figcaption data-i18n="marriageSlide5">Support for sincere Muslim marriage seekers.</figcaption></figure>
+                    <figure class="carousel-slide"><div class="carousel-visual carousel-visual--marriage6" aria-hidden="true"></div><figcaption data-i18n="marriageSlide6">Cross-city outreach and registration support.</figcaption></figure>
+                    <figure class="carousel-slide"><div class="carousel-visual carousel-visual--marriage7" aria-hidden="true"></div><figcaption data-i18n="marriageSlide7">Trusted communication with applicants.</figcaption></figure>
+                    <figure class="carousel-slide"><div class="carousel-visual carousel-visual--marriage8" aria-hidden="true"></div><figcaption data-i18n="marriageSlide8">A free service without dowry demands.</figcaption></figure>
+                    <figure class="carousel-slide"><div class="carousel-visual carousel-visual--marriage9" aria-hidden="true"></div><figcaption data-i18n="marriageSlide9">Helping families connect responsibly.</figcaption></figure>
+                    <figure class="carousel-slide"><div class="carousel-visual carousel-visual--marriage10" aria-hidden="true"></div><figcaption data-i18n="marriageSlide10">Community-led matrimonial support.</figcaption></figure>
+                  </div>
+                </div>
+                <div class="carousel-controls">
+                  <button type="button" class="carousel-btn carousel-prev" aria-label="Previous slide">‹</button>
+                  <div class="carousel-dots" role="tablist" aria-label="Slides">
+                    <button type="button" class="carousel-dot is-active" role="tab" aria-selected="true" aria-label="Slide 1"></button>
+                    <button type="button" class="carousel-dot" role="tab" aria-selected="false" aria-label="Slide 2"></button>
+                    <button type="button" class="carousel-dot" role="tab" aria-selected="false" aria-label="Slide 3"></button>
+                    <button type="button" class="carousel-dot" role="tab" aria-selected="false" aria-label="Slide 4"></button>
+                    <button type="button" class="carousel-dot" role="tab" aria-selected="false" aria-label="Slide 5"></button>
+                    <button type="button" class="carousel-dot" role="tab" aria-selected="false" aria-label="Slide 6"></button>
+                    <button type="button" class="carousel-dot" role="tab" aria-selected="false" aria-label="Slide 7"></button>
+                    <button type="button" class="carousel-dot" role="tab" aria-selected="false" aria-label="Slide 8"></button>
+                    <button type="button" class="carousel-dot" role="tab" aria-selected="false" aria-label="Slide 9"></button>
+                    <button type="button" class="carousel-dot" role="tab" aria-selected="false" aria-label="Slide 10"></button>
+                  </div>
+                  <button type="button" class="carousel-btn carousel-next" aria-label="Next slide">›</button>
+                </div>
+              </div>
+              <div class="program-body">
+                <h4 class="program-subtitle" data-i18n="marriageMissionTitle">Mission</h4>
+                <p class="program-text" data-i18n="marriagePara1"></p>
+                <p class="program-text" data-i18n="marriagePara2"></p>
+                <p class="program-text" data-i18n="marriageLocations"></p>
+                <h4 class="program-subtitle" data-i18n="marriageContactTitle">Contact</h4>
                 <p class="marriage-phones">
                   <a href="tel:+923008345338">+92 300 8345338</a>
                   <span class="phone-sep" aria-hidden="true">·</span>
                   <a href="tel:+923335186238">+92 333 5186238</a>
                 </p>
-                <p class="panel-text marriage-chairman" data-i18n="marriageChairman"></p>
-                <p class="marriage-email">
-                  <a href="mailto:javediqbaldogarwt@gmail.com">javediqbaldogarwt@gmail.com</a>
+                <p class="program-text marriage-chairman" data-i18n="marriageChairman"></p>
+                <p class="program-text program-contact-line">
+                  <span data-i18n="contactEmailLabel">Email</span><span class="contact-colon">: </span><a href="mailto:javediqbaldogarwt@gmail.com">javediqbaldogarwt@gmail.com</a>
                 </p>
+                <div class="donate-card">
+                  <h4 class="program-subtitle" data-i18n="marriageDonateTitle">Donate</h4>
+                  <p class="program-text" data-i18n="marriageDonateBody"></p>
+                </div>
+                <a class="panel-link" href="programs/marriage-bureau.html" data-i18n="learnMore">Learn more</a>
               </div>
-              <a class="panel-link" href="https://example.com/free-marriage-bureau" target="_blank" rel="noopener noreferrer" data-i18n="visitSite">
-                Visit website
-              </a>
-            </div>
+          </article>
 
-            <div
-              class="tab-panel"
-              role="tabpanel"
-              id="panel-education"
-              aria-labelledby="tab-education"
-              hidden
-            >
-              <h3 class="panel-title" data-i18n="educationTitle">Free Education — Zainab Essa College Hospital</h3>
-              <p class="panel-text" data-i18n="educationBody">
-                This initiative supports access to education linked with Zainab Essa College Hospital, helping students pursue learning alongside healthcare awareness. It reflects our belief that education and health reinforce one another in strong communities.
-              </p>
-              <a class="panel-link" href="https://example.com/zainab-essa-college-hospital" target="_blank" rel="noopener noreferrer" data-i18n="visitSite">
-                Visit website
-              </a>
-            </div>
-          </div>
+          <article class="program-section" id="program-education">
+              <h3 class="program-title" data-i18n="educationTitle">Free Education</h3>
+              <div class="carousel" data-carousel>
+                <div class="carousel-viewport">
+                  <div class="carousel-track">
+                    <figure class="carousel-slide"><div class="carousel-visual carousel-visual--edu1" aria-hidden="true"></div><figcaption data-i18n="educationSlide1">Students in the free education programme.</figcaption></figure>
+                    <figure class="carousel-slide"><div class="carousel-visual carousel-visual--edu2" aria-hidden="true"></div><figcaption data-i18n="educationSlide2">Learning with health awareness.</figcaption></figure>
+                    <figure class="carousel-slide"><div class="carousel-visual carousel-visual--edu3" aria-hidden="true"></div><figcaption data-i18n="educationSlide3">Scholarships and classroom support.</figcaption></figure>
+                    <figure class="carousel-slide"><div class="carousel-visual carousel-visual--edu4" aria-hidden="true"></div><figcaption data-i18n="educationSlide4">Guidance for aspiring students.</figcaption></figure>
+                    <figure class="carousel-slide"><div class="carousel-visual carousel-visual--edu5" aria-hidden="true"></div><figcaption data-i18n="educationSlide5">Educational access linked with healthcare.</figcaption></figure>
+                    <figure class="carousel-slide"><div class="carousel-visual carousel-visual--edu6" aria-hidden="true"></div><figcaption data-i18n="educationSlide6">Learning resources for long-term progress.</figcaption></figure>
+                    <figure class="carousel-slide"><div class="carousel-visual carousel-visual--edu7" aria-hidden="true"></div><figcaption data-i18n="educationSlide7">Encouraging academic and personal growth.</figcaption></figure>
+                    <figure class="carousel-slide"><div class="carousel-visual carousel-visual--edu8" aria-hidden="true"></div><figcaption data-i18n="educationSlide8">Mentorship for future professionals.</figcaption></figure>
+                    <figure class="carousel-slide"><div class="carousel-visual carousel-visual--edu9" aria-hidden="true"></div><figcaption data-i18n="educationSlide9">Support for scholarships and study materials.</figcaption></figure>
+                    <figure class="carousel-slide"><div class="carousel-visual carousel-visual--edu10" aria-hidden="true"></div><figcaption data-i18n="educationSlide10">Education creating stronger communities.</figcaption></figure>
+                  </div>
+                </div>
+                <div class="carousel-controls">
+                  <button type="button" class="carousel-btn carousel-prev" aria-label="Previous slide">‹</button>
+                  <div class="carousel-dots" role="tablist" aria-label="Slides">
+                    <button type="button" class="carousel-dot is-active" role="tab" aria-selected="true" aria-label="Slide 1"></button>
+                    <button type="button" class="carousel-dot" role="tab" aria-selected="false" aria-label="Slide 2"></button>
+                    <button type="button" class="carousel-dot" role="tab" aria-selected="false" aria-label="Slide 3"></button>
+                    <button type="button" class="carousel-dot" role="tab" aria-selected="false" aria-label="Slide 4"></button>
+                    <button type="button" class="carousel-dot" role="tab" aria-selected="false" aria-label="Slide 5"></button>
+                    <button type="button" class="carousel-dot" role="tab" aria-selected="false" aria-label="Slide 6"></button>
+                    <button type="button" class="carousel-dot" role="tab" aria-selected="false" aria-label="Slide 7"></button>
+                    <button type="button" class="carousel-dot" role="tab" aria-selected="false" aria-label="Slide 8"></button>
+                    <button type="button" class="carousel-dot" role="tab" aria-selected="false" aria-label="Slide 9"></button>
+                    <button type="button" class="carousel-dot" role="tab" aria-selected="false" aria-label="Slide 10"></button>
+                  </div>
+                  <button type="button" class="carousel-btn carousel-next" aria-label="Next slide">›</button>
+                </div>
+              </div>
+              <div class="program-body">
+                <h4 class="program-subtitle" data-i18n="educationMissionTitle">Mission</h4>
+                <p class="program-text" data-i18n="educationMissionBody"></p>
+                <h4 class="program-subtitle" data-i18n="educationContactTitle">Contact</h4>
+                <p class="program-text" data-i18n="educationContactBody"></p>
+                <p class="program-text program-contact-line">
+                  <span data-i18n="contactEmailLabel">Email</span><span class="contact-colon">: </span><a href="mailto:javediqbaldogarwt@gmail.com">javediqbaldogarwt@gmail.com</a>
+                </p>
+                <div class="donate-card">
+                  <h4 class="program-subtitle" data-i18n="educationDonateTitle">Donate</h4>
+                  <p class="program-text" data-i18n="educationDonateBody"></p>
+                </div>
+                <a class="panel-link" href="programs/education.html" data-i18n="learnMore">Learn more</a>
+              </div>
+          </article>
         </div>
       </section>
     </main>
