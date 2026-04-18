@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dogar Welfare Trust</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=Noto+Nastaliq+Urdu:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content">Skip to content</a>
+
+    <header class="site-header">
+      <div class="header-inner">
+        <div class="brand">
+          <span class="brand-mark" aria-hidden="true">◇</span>
+          <div class="brand-text">
+            <span class="brand-title" data-i18n="brandTitle">Dogar Welfare Trust</span>
+            <span class="brand-tagline" data-i18n="brandTagline">Serving communities with compassion</span>
+          </div>
+        </div>
+        <div class="lang-switch" role="group" aria-label="Language">
+          <button type="button" class="lang-btn is-active" data-lang="en" aria-pressed="true">English</button>
+          <button type="button" class="lang-btn" data-lang="ur" aria-pressed="false">اردو</button>
+        </div>
+      </div>
+    </header>
+
+    <main id="main-content">
+      <section class="hero">
+        <div class="hero-inner">
+          <h1 class="hero-title" data-i18n="heroTitle">Dogar Welfare Trust</h1>
+          <p class="hero-lead" data-i18n="heroLead">
+            A charitable organisation dedicated to health, education, and social support—building dignity and opportunity for those who need it most.
+          </p>
+        </div>
+      </section>
+
+      <section class="section about" aria-labelledby="about-heading">
+        <div class="section-inner">
+          <h2 id="about-heading" data-i18n="aboutHeading">About Dogar Welfare Trust</h2>
+          <div class="about-grid">
+            <div class="about-card">
+              <h3 data-i18n="aboutMissionTitle">Our mission</h3>
+              <p data-i18n="aboutMissionBody">
+                Dogar Welfare Trust works to uplift individuals and families through free medical outreach, education, and matrimonial support—guided by transparency, respect, and long-term community partnership.
+              </p>
+            </div>
+            <div class="about-card">
+              <h3 data-i18n="aboutFocusTitle">What we focus on</h3>
+              <p data-i18n="aboutFocusBody">
+                We coordinate programmes that remove barriers to sight, learning, and stable family life. Our affiliated initiatives operate with local volunteers and trusted partners so help reaches people quickly and fairly.
+              </p>
+            </div>
+            <div class="about-card">
+              <h3 data-i18n="aboutJoinTitle">Get involved</h3>
+              <p data-i18n="aboutJoinBody">
+                Whether you donate time, resources, or spread the word, you strengthen work that changes lives. Explore our linked programmes below to learn more and visit each initiative’s dedicated site.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section affiliates" aria-labelledby="affiliates-heading">
+        <div class="section-inner">
+          <h2 id="affiliates-heading" data-i18n="affiliatesHeading">Affiliated programmes</h2>
+          <p class="section-intro" data-i18n="affiliatesIntro">
+          </p>
+
+          <div class="tabs" data-tabs>
+            <div class="tablist" role="tablist" aria-label="Affiliate programmes">
+              <button
+                type="button"
+                class="tab"
+                role="tab"
+                id="tab-eyes"
+                aria-selected="true"
+                aria-controls="panel-eyes"
+                tabindex="0"
+                data-i18n="tabEyes"
+              >
+                Free Eyes Camp
+              </button>
+              <button
+                type="button"
+                class="tab"
+                role="tab"
+                id="tab-marriage"
+                aria-selected="false"
+                aria-controls="panel-marriage"
+                tabindex="-1"
+                data-i18n="tabMarriage"
+              >
+                Free Marriage Bureau
+              </button>
+              <button
+                type="button"
+                class="tab"
+                role="tab"
+                id="tab-education"
+                aria-selected="false"
+                aria-controls="panel-education"
+                tabindex="-1"
+                data-i18n="tabEducation"
+              >
+                Free Education — Zainab Essa College Hospital
+              </button>
+            </div>
+
+            <div
+              class="tab-panel is-active"
+              role="tabpanel"
+              id="panel-eyes"
+              aria-labelledby="tab-eyes"
+            >
+              <h3 class="panel-title" data-i18n="eyesTitle">Free Eyes Camp</h3>
+              <p class="panel-text" data-i18n="eyesBody">
+                Eye screening camps offer consultations and referrals so treatable conditions are caught early. This programme helps people who cannot easily access private eye care to receive guidance and support in a dignified setting.
+              </p>
+              <a class="panel-link" href="https://example.com/free-eyes-camp" target="_blank" rel="noopener noreferrer" data-i18n="visitSite">
+                Visit website
+              </a>
+            </div>
+
+            <div
+              class="tab-panel"
+              role="tabpanel"
+              id="panel-marriage"
+              aria-labelledby="tab-marriage"
+              hidden
+            >
+              <h3 class="panel-title" data-i18n="marriageTitle">Free Marriage Bureau</h3>
+              <p class="panel-text" data-i18n="marriageBody">
+                The bureau assists families with responsible matchmaking support, respecting privacy and Islamic values where applicable. It aims to reduce financial strain and help sincere seekers connect through a supervised, ethical process.
+              </p>
+              <a class="panel-link" href="https://example.com/free-marriage-bureau" target="_blank" rel="noopener noreferrer" data-i18n="visitSite">
+                Visit website
+              </a>
+            </div>
+
+            <div
+              class="tab-panel"
+              role="tabpanel"
+              id="panel-education"
+              aria-labelledby="tab-education"
+              hidden
+            >
+              <h3 class="panel-title" data-i18n="educationTitle">Free Education — Zainab Essa College Hospital</h3>
+              <p class="panel-text" data-i18n="educationBody">
+                This initiative supports access to education linked with Zainab Essa College Hospital, helping students pursue learning alongside healthcare awareness. It reflects our belief that education and health reinforce one another in strong communities.
+              </p>
+              <a class="panel-link" href="https://example.com/zainab-essa-college-hospital" target="_blank" rel="noopener noreferrer" data-i18n="visitSite">
+                Visit website
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="footer-inner">
+        <p class="footer-text" data-i18n="footerNote"></p>
+      </div>
+    </footer>
+
+    <script src="main.js"></script>
+  </body>
+</html>
