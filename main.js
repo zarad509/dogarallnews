@@ -18,7 +18,7 @@ const STRINGS = {
       "Whether you donate time, resources, or spread the word, you strengthen work that changes lives. Explore our programs below to learn more.",
     aboutGalleryHeading: "Gallery",
     affiliatesHeading: "Programs",
-    eyesTitle: "Free Eyes Camp",
+    eyesTitle: "Free Eye Camp",
     eyesMissionTitle: "Mission",
     eyesMissionBody:
       "Dr. Muhammad Khalid Dogar organizes free eye camps in Pakistan for underprivileged communities, especially in rural Punjab and Azad Kashmir. Services include free eye exams, consultations, cataract surgeries through PHACO with IOL implantation, and free medicines.",
