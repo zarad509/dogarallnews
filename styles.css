@@ -25,6 +25,20 @@ html {
   -webkit-text-size-adjust: 100%;
 }
 
+html, body {
+  overflow-x: hidden;
+}
+
+body[dir="rtl"] {
+  overflow-x: hidden;
+}
+
+.brand-logo {
+  width: 32px;
+  height: 32px;
+  object-fit: contain;
+}
+
 body {
   margin: 0;
   font-family: var(--font-en);
